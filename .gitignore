@@ -1,0 +1,49 @@
+# ========================
+# Node.js / Vue Frontends
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vue build outputs
+MusicAdmin-frontend/dist/
+MusicUser-frontend/dist/
+
+# ========================
+# Java / Maven Backend
+# ========================
+源码/Music-backend/target/
+源码/Music-backend/*.class
+源码/Music-backend/*.jar
+源码/Music-backend/*.log
+
+# ========================
+# Large binary assets (too big for GitHub, users place them manually)
+# ========================
+源码/Music-backend/song/
+
+# ========================
+# IDE / Editor
+# ========================
+.idea/
+.vscode/
+*.iml
+*.log
+.DS_Store
+Thumbs.db
+
+# ========================
+# OS / Temp
+# ========================
+*.tmp
+*.bak
+*.swp
+backend.log
+backend_err.log
+
+# ========================
+# DB Backup Tables (we only keep the original DB_Music.sql)
+# ========================
+# singer_bak, song_bak, song_list_bak, consumer_bak - temporary restore tables
